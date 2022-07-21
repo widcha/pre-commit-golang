@@ -1,4 +1,4 @@
-#! /bin/env bash
+#! /usr/bin/env bash
 
 input_file=".git/COMMIT_EDITMSG"
 start_line=`cat ${input_file} | head -n 1`
