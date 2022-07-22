@@ -8,7 +8,7 @@
 - id: go-vet
   name: 'go vet'
   entry: run-go-vet.sh
-  files: '\packages\services\farm\.go$'
+  files: '\.go$'
   language: 'script'
   description: "Run 'go vet', requires golang"
 
