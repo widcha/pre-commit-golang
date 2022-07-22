@@ -7,7 +7,7 @@
 
 - id: go-vet
   name: 'go vet'
-  entry: source run-go-vet.sh
+  entry: run-go-vet.sh
   files: '\.go$'
   language: 'script'
   description: "Run 'go vet', requires golang"
